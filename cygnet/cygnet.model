@@ -1,0 +1,23 @@
+material Body-material
+
+diffuse 1.0 1.0 1.0
+specular 0.9 0.9 0.9
+
+#tex_diff cygnetGrey.png
+#tex_spec cygnetGrey.png
+#tex_glow cygnet_glow.dds
+
+#use_patterns
+
+collision cygnet_shield.obj
+
+#LOD
+lod 1000
+mesh cygnet.dae
+#mesh cygnet_shield.dae
+
+lod 300
+mesh cygnet_med.dae
+
+# Animations
+#anim gear_down 0 72
