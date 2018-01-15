@@ -1,0 +1,21 @@
+# Comments can be written like this
+# Define all used materials first
+material Body-material
+tex_diff shadowbc.png
+tex_glow shadowbc_glow.png
+tex_spec shadowbc_spec.png
+#collision shadowbc_collision.obj
+
+# LOD
+#lod 1000
+#mesh shadowbc_veryhigh.dae
+
+lod 800
+mesh shadowbc_high.dae
+
+lod 300
+mesh shadowbc_med.dae
+
+lod 70
+mesh shadowbc_low.dae
+

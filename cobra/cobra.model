@@ -1,0 +1,35 @@
+#Blender collada exporter helpfully appends "-material" to names >:I
+material CobraI_body-material
+tex_diff CobraI_diff.png
+tex_glow CobraI_emit.png
+tex_spec CobraI_spec.png
+#tex_norm Cobra_normal.png
+diffuse 1.0 1.0 1.0
+specular 0.6 0.6 0.8
+shininess 40
+use_patterns
+
+material Asp_exhaust_face-material
+diffuse 1.0 1.0 1.0
+tex_glow glow_spot.png
+emissive 1.0 1.0 1.0
+shininess 150
+
+material CobraI_exhaust-material
+tex_diff engine_cone_diff.png
+tex_glow engine_cone_emit.png
+emissive 1.0 1.0 1.0
+diffuse 1.0 1.0 1.0
+specular 1.0 1.0 1.0
+shininess 150
+
+lod 10
+mesh lod1.x
+
+lod 30
+mesh lod2.x
+
+lod 1000
+mesh cobra_lod3.dae
+
+collision collision.obj

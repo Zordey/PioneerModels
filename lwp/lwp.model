@@ -1,0 +1,14 @@
+# Comments can be written like this
+# Define all used materials first
+material Body-material
+tex_diff lwp.png
+tex_glow lwp_glow.png
+tex_spec lwp_spec.png
+
+#collision lwp_collision.obj
+
+# LOD
+
+mesh lwp.dae
+
+

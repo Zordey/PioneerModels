@@ -1,0 +1,21 @@
+material whatever
+tex_diff ramjetcraft.png
+tex_glow glowmap.png
+emissive 1.0 1.0 1.0
+diffuse 1.0 1.0 1.0
+specular 0.9 0.9 0.9
+shininess 200
+use_patterns
+
+#autocalculated bounding box works fine as
+#a collision mesh for this model.
+#this is a very simple model and does not
+#really require more than two lods.
+lod 10
+mesh test_meteor_low.dae
+
+lod 1000
+mesh test_meteor.dae
+mesh landing_gear.x
+
+anim gear_up 0 29
