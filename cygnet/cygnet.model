@@ -7,7 +7,7 @@ material Body-material
 #tex_diff UVTest.png
 tex_diff Cygnet.png
 tex_spec Cygnet_spec.png
-#tex_glow cygnet_glow.dds
+tex_glow cygnet_glow.png
 
 collision cygnet_col.obj
 
@@ -16,8 +16,8 @@ lod 1001
 mesh cygnet.dae
 mesh cygnet_shield.dae
 
-lod 10
-mesh cygnet_low.dae
+#lod 10
+#mesh cygnet_low.dae
 
 #Animations
-anim gear_down 0 72
+#anim gear_down 0 72
