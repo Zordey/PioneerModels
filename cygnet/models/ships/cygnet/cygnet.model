@@ -1,0 +1,21 @@
+material Body
+
+#diffuse 0.5 0.5 0.5
+#specular 0.0 0.0 0.0
+
+tex_diff Cygnet.png
+tex_spec Cygnet_spec.png
+tex_glow Cygnet_glow.png
+
+#collision cygnet_col.obj
+
+#LOD
+lod 1001
+mesh cygnet.dae
+#mesh cygnet_shield.dae
+
+#lod 10
+#mesh cygnet_low.dae
+
+#Animations
+anim gear_down 0 72
